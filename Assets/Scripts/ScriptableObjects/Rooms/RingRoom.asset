@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cefcc3b713c52a14dbd63327db6ed0df, type: 3}
   m_Name: RingRoom
   m_EditorClassIdentifier: 
-  description: You are in a circular hall with six pedastals.
+  description: You are in a circular hall with six pedastals. Five pedastals have
+    skulls on them. One pedastal is empty.
   roomName: ring room
+  sound: Focus Enter
+  soundTake: 
   exits:
   - keyString: south
     exitDescription: There is a door to the South.
-    valueRoom: {fileID: 11400000, guid: 2c7ffef9106216f4c9b2d20782cc41ef, type: 2}
+    valueRoom: {fileID: 11400000, guid: 177d301a46fed7d448de26777c5ed7be, type: 2}
+  interactableObjectsInRoom: []

@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cefcc3b713c52a14dbd63327db6ed0df, type: 3}
   m_Name: EndRoom
   m_EditorClassIdentifier: 
-  description: 
-  roomName: 
+  description: Free at last! The open air awaits you.
+  roomName: End Room
+  sound: 
+  soundTake: 
   exits: []
   interactableObjectsInRoom: []

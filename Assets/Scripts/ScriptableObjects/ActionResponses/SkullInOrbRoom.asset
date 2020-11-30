@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 881f16bf2197e0a4b9c3df2b6e697a63, type: 3}
   m_Name: SkullInOrbRoom
   m_EditorClassIdentifier: 
-  requiredString: orb room
-  roomToChangeTo: {fileID: 0}
+  requiredString: ring room
+  roomToChangeTo: {fileID: 11400000, guid: 2db962d4b0339a641a3c6b1f4b0fd177, type: 2}

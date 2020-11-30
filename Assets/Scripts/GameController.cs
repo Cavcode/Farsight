@@ -26,7 +26,7 @@ public class GameController : MonoBehaviour
     void Start()
     {
         DisplayRoomText();
-        DisplayLoggedText();
+        DisplayLoggedText(); 
     }
 
     public void DisplayLoggedText()
@@ -34,6 +34,7 @@ public class GameController : MonoBehaviour
         string logAsText = string.Join("\n", actionLog.ToArray());
 
         displayText.text = logAsText;
+
     }
 
     public void DisplayRoomText()
@@ -42,13 +43,16 @@ public class GameController : MonoBehaviour
 
         UnpackRoom();
 
+        AudioManager.instance.PlaySound(roomNavigation.currentRoom.sound); 
+
         string joinedInteractionDescriptions = string.Join("\n", interactionDescriptionsInRoom.ToArray());
 
         string combinedText = roomNavigation.currentRoom.description + "\n" + joinedInteractionDescriptions;
 
         LogStringWithReturn(combinedText);
 
-        FindObjectOfType<AudioManager>().Play(roomNavigation.currentRoom.sound);
+        
+
     }
 
     void UnpackRoom()

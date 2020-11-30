@@ -10,11 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cefcc3b713c52a14dbd63327db6ed0df, type: 3}
-  m_Name: RingRoom
+  m_Name: RingRoomOpen
   m_EditorClassIdentifier: 
-  description: You are in a circular hall with six pedastals.
-  roomName: ring room
+  description: 
+  roomName: Ring Room Open
+  sound: 
+  soundTake: 
   exits:
-  - keyString: south
-    exitDescription: There is a door to the South.
-    valueRoom: {fileID: 11400000, guid: 2c7ffef9106216f4c9b2d20782cc41ef, type: 2}
+  - keyString: north
+    exitDescription: A  piece of wall opens to the North.
+    valueRoom: {fileID: 11400000, guid: 4bf0334f73f766a44a3fb3ce57f33244, type: 2}
+  interactableObjectsInRoom: []
