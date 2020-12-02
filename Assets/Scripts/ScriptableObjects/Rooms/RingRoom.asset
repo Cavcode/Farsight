@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cefcc3b713c52a14dbd63327db6ed0df, type: 3}
   m_Name: RingRoom
   m_EditorClassIdentifier: 
-  description: You are in a circular hall with six pedastals. Five pedastals have
-    skulls on them. One pedastal is empty.
+  description: You are in a circular hall with six pedestals. Five pedestals have
+    skulls on them. One pedestal is empty.
   roomName: ring room
-  sound: Focus Enter
+  sound: Room2
   soundTake: 
   exits:
   - keyString: south

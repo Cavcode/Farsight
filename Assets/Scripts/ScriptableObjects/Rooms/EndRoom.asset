@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description: Free at last! The open air awaits you.
   roomName: End Room
-  sound: 
+  sound: Room4
   soundTake: 
   exits: []
   interactableObjectsInRoom: []

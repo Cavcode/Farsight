@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description: 
   roomName: Ring Room Open
-  sound: 
+  sound: Room3
   soundTake: 
   exits:
   - keyString: north
